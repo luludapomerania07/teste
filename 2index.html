@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Luana" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Luana</p>
+        <h1>Sou farmacêutica</h1>
+        <p>Sou farmacêutica, formada pela Unicamp. Trabalho na Indústria Farmacêutica, como Farmacêutica Responsável Técnica, supervisionando e
+            coordenando todos os serviços técnicos e científicos de um estabelecimento que comercializa, distribui e dispensa produtos farmacêuticos, 
+            cosméticos e produtos para a saúde.
+        </p>
+    
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Controle da qualidade</p>
+            <p class="badge bg-secondary">Gestão</p>
+            <p class="badge bg-secondary">Farmacologia</p>
+            
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de fitoterápicos">
+                    <div class="card-body">
+                        <h5 class="card-title">Fitoterápicos: como a fitoterapia auxilia na sua saúde</h5>
+                        <p class="card-text">Este projeto foi realizado durante a graduação, onde os objetos de estudo foram os benefícios dos fitoterápicos e como
+                            se tornaram uma alternativa mais saudável para o tratamento de doenças.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de oficina sobre composição dos medicamentos">
+                    <div class="card-body">
+                        <h5 class="card-title">Oficina no CRF: Composição química dos medicamentos
+                        </h5>
+                        <p class="card-text">Este projeto, desenvolvido num encontro do Conselho Regional de Farmácia, em Campinas - SP, foi realizado com o objetivo de auxiliar graduandos em Fármacia em seus 
+                            estudos relacionados à Farmacologia e composição química de fármacos.                              
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem dos Medicamentos Gelatinosos">
+                    <div class="card-body">
+                        <h5 class="card-title">Cápsulas gelatinosas: composição e seus benefícios
+                        </h5>
+                        <p class="card-text">Este projeto foi desenvolvido em parceria com os graduandos da iniciação científica da Faculdade de Engenharia de Alimentos 
+                         (FEA) e com os alunos da Faculdade de Ciências Farmacêuticas (FCF), ambos da Unicamp. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fitoterápicos: como a fitoterapia auxilia na sua saúde</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div> 
+                <div class="modal-body">
+                    <p>O projeto, desenvolvido durante minha graduação, aborda os benefícios dos fitoterápicos e de que forma eles auxiliam no tratamento de doenças. 
+                       </p>
+                    <p>Os medicamentos fitoterápicos, elaborados a partir de plantas medicinais, oferecem diversos benefícios à saúde,
+                       como a menor incidência de efeitos colaterais em comparação com medicamentos sintéticos, e podem ser utilizados para 
+                       tratar e prevenir uma variedade de condições. Além disso, a fitoterapia promove uma reconexão
+                       com a natureza e pode auxiliar na regulação hormonal, fortalecimento do sistema imunológico e 
+                       até mesmo na redução de inflamações. 
+                    </p>
+                    <p>Os fitoterápicos são produzidos através da extração de substâncias ativas de plantas medicinais,
+                        que passam por um processo de industrialização para garantir a qualidade, segurança e eficácia.
+                    </p>
+                    <p></p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem dos fitoterápicos">
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Oficina no CRF: Composição química dos medicamentos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto se estabeleceu em 2018, quando, ao final de minha pós graduação em gestão de procesos químicos 
+                        para a produção de fármacos, eu e minha equipe criamos a oficina de Farmacologia e composição de medicamentos,
+                        instruindo de forma prática e assertiva os graduandos em formação na época. 
+                    </p>
+                    <p>A estrutura qúimica dos fármacos é um aspecto crucial no seu desenvolvimento e ação no organismo. As
+                        propriedades químicas, como a presença de grupos funcionais, a forma cristalina/amorfia e a capacidade
+                    de ligção a receptores, determinam a eficácia e segurança dos medicamentos. </p>
+                    <p>A estrutura química de um fármaco influencia diretamente suas propriedades físico-químicas e,
+                        consequentemente, sua atividade biológica. Por exemplo, a forma não ionizada de um fármaco
+                        (lipofílica) é mais facilmente absorvida e distribuída no corpo.
+                    </p>
+                    <p> O projeto contou com mais de 50 graduandos de toda a região de Campinas, com o apoio da indústria farmacêutica, 
+                        como EMS, Bayer, Cristália, TRB Pharma, Multilab, Cellera e Apsen Farmacêutica.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem da oficina no CRF">
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cápsulas gelatinosas: composição e seus benefícios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto, desenvolvido ao final de 2023, teve como objetivo discorrer sobre a composição das 
+                        cápsulas gelatinosas, o processo de fabricação e de que forma elas podem ser uma alternativa
+                        aos outros tipos de cápsulas.
+                    </p>
+                    <p>As cápsulas gelatinosas são compostas principalmente de gelatina, glicerina e água, podendo
+                        também conter corantes e aromatizantes adicionais. A gelatina utilizada é derivada do colágeno
+                        de origem animal. 
+                    </p>
+                    <p>As cápsulas gelatinosas podem ser divididas entre moles e duras. As moles possuem uma espessura maior
+                        e podem conter ingredientes adicionais como glicerina para obter a textura desejada. Já as duras são 
+                        compostas principalmente de gelatina e água, podendo conter plastificantes para aumentar a flexibilidade.
+                    </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+        
+            <a href=>luanaferreira.fcf@gmail.com</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Luana Ferreira</p>
+    </footer>
+  
+</div>
+    
+</body>
+
+</html>
